@@ -1,0 +1,38 @@
+#cont {
+	margin-top: 100px;
+}
+
+#slime {
+	width: 300px;
+	height: 250px;
+	background: url(img/nout.png);
+	position: relative;
+}
+
+.button {
+	width:150px;
+	text-align:center;
+	font-weight: 300;
+	font-size: 14px;
+	border-radius: 15px;
+	color: #0000FF;
+	background-color: #00FFFF;
+	transition: .3s;
+	padding: 5px;
+	margin: 80px auto;
+}
+
+.button:hover {
+	top: 5px;
+	transition: .3s;
+	color: #191970;
+	background-color: #00CED1;
+	border-radius: 15px;
+}
+
+.button:active {
+	color: #DDA0DD;
+	border: #1A1A1A 1px solid;
+	transition: .09s;
+	background-color: #FFFF00;
+}
